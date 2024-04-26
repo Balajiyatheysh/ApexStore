@@ -1,0 +1,39 @@
+:root{
+  --primary-color:red;
+  --secondary-color:#fff;
+  --bg-color:rgba(37, 37, 37, 0.589);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(./assets/images/bg-red.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: black;
+  color: var(--secondary-color);
+  min-height: 100vh;
+}
+
+input{
+  outline:none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color:var(--primary-color);
+}
+
+@keyframes move {
+  from{
+      transform: translate(-10vw);
+  }
+  to{
+      transform: translate(100vw);
+  }
+}
