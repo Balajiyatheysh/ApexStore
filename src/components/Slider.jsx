@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight } from '@material-ui/icons';
+import { ArrowLeft, ArrowRight } from '@mui/icons-material';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import {sliderItemsHome} from '../data'

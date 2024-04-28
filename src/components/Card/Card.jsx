@@ -1,5 +1,5 @@
 import React from 'react'
-import { Favorite,FavoriteBorderOutlined, ShoppingCart, Star } from '@material-ui/icons'
+import { Favorite,FavoriteBorderOutlined, ShoppingCart, Star } from '@mui/icons-material'
 import './Card.css'
 import { useAuth } from '../../context/auth-context'
 import { useWishlist } from '../../context/wishlist-context'

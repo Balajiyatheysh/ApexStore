@@ -1,4 +1,4 @@
-import { Facebook, Favorite, Instagram, Pinterest } from '@material-ui/icons'
+import { Facebook, Favorite, Instagram, Pinterest } from '@mui/icons-material'
 import React from 'react'
 import './Footer.css';
 import logo from "../../assets/logo/apex-legends-symbol-white.png"

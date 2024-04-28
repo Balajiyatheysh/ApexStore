@@ -5,8 +5,8 @@ import { useFilter } from '../../context/filter-context'
 import { filtereddata } from '../../reducer/filter'
 import { Card } from '../../components/Card/Card'
 import { Filter } from '../../components/Filter'
-import { Fab } from '@material-ui/core'
-import { FilterList } from '@material-ui/icons'
+import { Fab } from '@mui/material'
+import { FilterList } from '@mui/icons-material'
 import { Pagination } from '../../components/Pagination'
 
 function ProductListing() {

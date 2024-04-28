@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { makeServer } from "./server";
@@ -10,10 +9,15 @@ import { WishlistProvider } from "./context/wishlist-context"
 import { AuthProvider } from "./context/auth-context";
 import { CartProvider } from "./context/cart-context"
 import { ModalProvider } from "./context/modalContext";
+import { createRoot } from "react-dom/client";
+
 // Call make Server
 makeServer();
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = createRoot(container);
+ 
+root.render(
   <React.StrictMode>
     <BrowserRouter>
       <ModalProvider>
